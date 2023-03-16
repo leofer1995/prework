@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/leonardo/Escritorio/blockchain/prework/contracts/counter.sol": {
+      "lastModificationDate": 1678941326832,
+      "contentHash": "83c8556b2e48910548f6e006adb98729",
+      "sourceName": "contracts/counter.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.7"
+      ],
+      "artifacts": [
+        "Counter"
+      ]
+    }
+  }
+}
