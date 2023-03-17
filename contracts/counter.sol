@@ -17,5 +17,9 @@ contract Counter {
     function increment() public {
         counter++;
     }
+
+    function setCounter(uint _setValue) public {
+        counter = _setValue;
+    }
     
 }
